@@ -1,0 +1,6 @@
+{
+  "[lilypond]": {
+    "editor.wordWrap": "off",
+    "editor.rulers": []
+  }
+}
