@@ -1,6 +1,7 @@
 {
   "[lilypond]": {
-    "editor.wordWrap": "off",
-    "editor.rulers": []
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "editor.rulers": [120]
   }
 }
