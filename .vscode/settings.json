@@ -1,7 +1,9 @@
 {
+  "files.autoSave": "onFocusChange",
   "[lilypond]": {
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 120,
     "editor.rulers": [120]
-  }
+  },
+  "lilypondFormatter.general.pathToPython": "/usr/bin/python3"
 }
