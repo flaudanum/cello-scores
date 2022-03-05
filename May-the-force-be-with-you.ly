@@ -1,4 +1,4 @@
-\version "2.19.84"
+\version "2.23.6"
 
 \layout {
     indent = 0\cm
@@ -33,9 +33,9 @@ ub = \upbow
     \clef "bass"
     \repeat volta 2
     {
-        e2^\db fis4.^3 g16^2 (a^4) | g2^2 b,4.^1 b8 | e4.^1 (fis8) g8 b, \tuplet 3/2 {e8 g e} | a2. b,4 | \break
+        e2^\db fis4.^3 g16^2^\ub (a^4) | g2^2 b,4.^1 b8^\ub_3 | e4.^1^\db fis8 g8 b, \tuplet 3/2 {e8 (g) e} | a2.^\db b,4 | \break
         %% measure: 5
-        e4. fis8 g8. (e16) b'8.^1 (g16^2) | e'2^4 e,4^1 \tuplet 3/2 {g8 fis e} | b'4 ~ \tuplet 3/2 {b8 g e} b4 b8. b16 \break
+        e4. fis8 g8. (e16) b'8.^1^\ub g16^2^\ub | e'2^4^\db e,4^1 \tuplet 3/2 {g8 (fis) e} | b'4 ~ \tuplet 3/2 {b8 g e} b4^\ub b8. b16 \break
     }
     %% measure: 8
     \alternative {
