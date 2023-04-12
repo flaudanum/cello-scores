@@ -46,7 +46,7 @@ ub = \upbow
         %% measure: 20
         r2 g4 ees | f1 |
     }
-    r2 g4 ees | d2. bes4 | g1 \bar "|."
+    r2 g4 ees | d2. bes4 | g1^\fermata \bar "|."
     }
     \header {
         piece = "G minor"

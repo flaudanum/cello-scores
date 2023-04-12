@@ -35,19 +35,19 @@ ub = \upbow
     \key g \minor
     \clef "bass"
     %% measure: 1
-    bes,2 g'4 ees | f1 
+    bes,2^0 g'4^1 ees^4 | f1^0 
     \repeat volta 2
     {
         %% measure: 3
-        bes,2 g'4 ees | d2. bes4 | g2 g'4 ees | f1 | \break
+        bes,2 g'4 ees | d2.^3 bes4 | g2^3 g'4 ees | f1 | \break
         %% measure: 7
-        bes,2 g'4 ees | d2. bes4 | d2 g4 d | ees1 | d2 g4 d | ees2 f4 g | \break
+        bes,2 g'4 ees | d2.^3 bes4 | d2 g4 d | ees1^4 | d2 g4 d | ees2 f4 g | \break
         %% measure: 13
-        ees2 bes'4 g | f2 bes,4 f' | g2 g4 ees | d2 d4 bes | c2 c4 ees | d2 ees4 f | \break
+        ees2^4 bes'4^4 g^1 | f2^0 bes,4^0 f' | g2 g4 ees | d2 d4 bes | c2 c4 ees | d2 ees4 f | \break
         %% measure: 20
         r2 g4 ees | f1 |
     }
-    r2 g4 ees | d2. bes4 | g1 \bar "|."
+    r2 g4 ees | d2. bes4 | g1_3^\fermata \bar "|."
     }
     \header {
         piece = "Si mineur"
